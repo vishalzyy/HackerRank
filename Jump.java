@@ -18,7 +18,7 @@ public class Jump {
         int jump = 0;
         int position = 0;
         while(position != c.length-1){
-            if(c[position+2] != 1 && position+2 < c.length){
+            if( position+2 < c.length && c[position+2] != 1){
                 position += 2;
             }else{
                 position+=1;
